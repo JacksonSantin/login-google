@@ -10,7 +10,7 @@ const handleCredentialResponse = (response) => {
 };
 window.onload = function () {
   google.accounts.id.initialize({
-    client_id: "908514237155-hgjg2vvacjohr42bngmlmqa5rt4ksgbb.apps.googleusercontent.com",
+    client_id: "SEU_CLIENT_ID_AQUI",
     callback: handleCredentialResponse,
   });
   google.accounts.id.renderButton(
